@@ -1,9 +1,9 @@
 const emailList = "https://flynn.boolean.careers/exercises/api/random/mail";
 // container per mettere le email
 const emailElement = document.getElementById("container-mail");
-const buttonElement = document.getElementById("button")
+const buttonElement = document.getElementById("button");
 
-reload()
+reload();
 
 
 
@@ -26,7 +26,7 @@ function reload(){
             })
             .catch(error => {
                 console.log(error)
-            })
-        }
+            });
+        };
     
-}
+};
